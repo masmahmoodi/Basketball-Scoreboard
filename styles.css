@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Digital Timer Font';
+    src: url('fonts/digital-7.ttf') format('truetype');
+  }
+  
+  .timer {
+    font-family: "Digital Timer Font", sans-serif;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #000000;
+}  
+.players-info{
+  display: flex;
+  align-items: center;
+}
+.players-info div{
+  margin: 0px 90px 0px 90px; 
+  
+}
+.player-img img {
+  width: 150px;
+}
+.vs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vs div{
+  margin-bottom: 20px;
+}
+
+.vs img{
+  width: 100px;
+}
+
+.score{
+  width: 100px;
+  height: 80px;
+  background-color: gray;
+}
+.white-color{
+  color: white;
+}
+.player{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.player div,h1{
+  margin: 10px 0px 0px 0px;
+}
+.game-btn button{
+  width: 200px;
+  margin: 5px;
+  padding: 10px;
+
+}
+.game-btn button{
+  background-color: #B6BBC4;
+
+}
+
+.message{
+  color:red;
+}
+
+.score{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 40px;
+ color: red;
+ border-radius: 10px;
+}
+.buttons button{
+  padding: 10px;
+  font-family: "Digital Timer Font", sans-serif;
+  font-size: 15px;
+  background-color: rgb(58, 56, 56);
+  color: white;
+}
+.buttons button:hover{
+ opacity: 0.5;
+
+}
+.danger-btn{
+  border: 2px solid red;
+}
+.success-btn{
+  border: 1px solid green;
+}
+.ground img{
+  width: 500px;
+}
+.winner{
+  background-color: green;
+}
+.losser{
+  background-color: red;
+}

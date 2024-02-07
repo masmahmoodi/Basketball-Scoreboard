@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="players-info white-color">
+           <div class="player  player-one">
+                <h1>Wolf</h1>
+                <div class="player-img">
+                    <img src="images/wolf-danger.jpg" >
+                </div>
+                <div class="score timer result-1">
+                    0
+                </div>
+                <div class="buttons buttons-1 ">
+                    <button class="success-btn" value="1">+ 1</button>
+                    <button class="success-btn"  value="2">+ 2</button>
+                    <button class="success-btn"  value="3">+ 3</button>
+                    <button class="danger-btn"  value="-1">- 1</button>
+                    <button class="danger-btn"  value="-2">- 2</button>
+                    <button class="danger-btn"  value="-3">- 3</button>
+                </div>
+           </div>
+           <div class="vs">
+              <div>  <img src="images/vs.jpg"></div>
+              <div class="game-btn">
+                <button id="newGame">New Game</button> <br>
+                <button id="winner">Show Winner</button>
+               </div>
+               <span class="message">
+               </span>
+            </div>
+           <div class="player player-two">
+                <h1>Panda</h1>
+                <div class="player-img">
+                    <img src="images/panda-danger.jpg" >
+                </div>
+                <div class="score timer result-2">
+                  0
+                </div>
+                <div class="buttons buttons-2">
+                    <button class="success-btn" value="1">+ 1</button>
+                    <button class="success-btn" value="2">+ 2</button>
+                    <button class="success-btn" value="3">+ 3</button>
+                    <button class="danger-btn"  value="-1">- 1</button>
+                    <button class="danger-btn"  value="-2">- 2</button>
+                    <button class="danger-btn"  value="-3">- 3</button>
+                </div>
+           </div>
+        </div>
+        <div class="ground">
+            <img src="images/basketball-ground.jpg" >
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
